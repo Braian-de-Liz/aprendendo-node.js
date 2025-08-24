@@ -1,7 +1,7 @@
 import http from 'http';
 
 http.createServer((req, res) => {
-    res.end("gozemo");
+    res.end("olá");
 }).listen(8082);
 
-console.log("O servidor ta funcionando gozadinha zozaaaaa");
+console.log("O servidor ta funcionando ");
