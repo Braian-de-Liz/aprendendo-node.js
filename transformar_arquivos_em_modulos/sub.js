@@ -4,4 +4,4 @@ const sub = (a, b) => {
     return resultado;
 }
 
-module.exports = sub;
+export { sub };

@@ -5,4 +5,4 @@ const soma = (a, b) => {
 }
 
 
-module.exports = soma;
+export { soma };

@@ -5,4 +5,4 @@ const divs = (a, b) => {
     return resultado;
 }
 
-module.exports = divs;
+export { divs };
