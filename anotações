@@ -1,0 +1,3 @@
+comandos importantes:
+
+node --watch index.js
