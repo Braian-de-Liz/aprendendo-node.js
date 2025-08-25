@@ -14,6 +14,11 @@ app.get("/blog", (req, res) => {
     res.send("Bem-vindo ao meu blog");
 });
 
+app.get("/ola/:cargo/:nome", (req, res) => {
+    res.send(  req.params );
+
+});
+
 app.listen(8082, () => {
-    console.log("bom dia");
+    console.log("Rodando");
 });
