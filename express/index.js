@@ -4,6 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
     res.send("Bom Dia meu amigo");
+
 });
 
 app.get("/sobre", (req, res) => {

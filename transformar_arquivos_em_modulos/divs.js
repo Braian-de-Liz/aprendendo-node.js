@@ -1,7 +1,6 @@
-const divs = (a, b) => {
+function divs(a, b) {
     const resultado = a / b;
-
-
+    
     return resultado;
 }
 
