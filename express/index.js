@@ -1,9 +1,14 @@
 import express from "express";
 const app = express();
 
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 app.get("/", (req, res) => {
-    res.send("Bom Dia meu amigo");
+    res.sendFile(__dirname + "/index.html");
 
 });
 
@@ -16,8 +21,7 @@ app.get("/blog", (req, res) => {
 });
 
 app.get("/ola/:cargo/:nome", (req, res) => {
-    res.send("<h1>" + req.params.nome + "</h1>");
-    res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
+    res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
     // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
     // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
     // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
