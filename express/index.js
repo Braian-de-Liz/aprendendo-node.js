@@ -149,6 +149,7 @@ app.get("/ola/:cargo/:nome", (req, res) => {
     // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
     // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
 });
+//teste de commit e git add
 
 app.listen(8082, () => {
     console.log("Rodando");
