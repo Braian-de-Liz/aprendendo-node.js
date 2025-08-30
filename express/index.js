@@ -24,130 +24,125 @@ app.get("/blog", (req, res) => {
 
 app.get("/ola/:cargo/:nome", (req, res) => {
     res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
-    // res.send("<h2> seu cargo :" + req.params.cargo + "</h2>")
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
+    // res.send(`<h1>${req.params.nome}</h1> + <br + <h2>Seu cargo: ${req.params.cargo}</h2>`);
 });
 //teste de commit e git add
 // teste 3 de commit
