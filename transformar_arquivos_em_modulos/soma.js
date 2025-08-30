@@ -6,3 +6,22 @@ const soma = (a, b) => {
 
 
 export { soma };
+
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");

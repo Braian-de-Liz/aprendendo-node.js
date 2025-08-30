@@ -3,5 +3,27 @@ function divs(a, b) {
     
     return resultado;
 }
-
 export { divs };
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");

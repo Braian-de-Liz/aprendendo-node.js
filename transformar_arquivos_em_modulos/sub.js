@@ -5,3 +5,21 @@ function sub(a, b) {
 }
 
 export { sub };
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");

@@ -7,3 +7,5 @@ console.log(soma(4, 8));
 console.log(divs(8, 6));
 console.log(mult(4, 8));
 console.log(sub(4, 8));
+
+console.log("é funcionou a calculadora");

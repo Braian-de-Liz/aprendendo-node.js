@@ -6,3 +6,19 @@ const mult = (a, b) => {
 
 
 export { mult };
+
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
+console.log("é funcionou a exportação");
