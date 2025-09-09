@@ -1,5 +1,4 @@
 import http from 'http';
-import { send } from 'process';
 
 http.createServer((req, res) => {
     res.send("Bom Dia meu amigo");
