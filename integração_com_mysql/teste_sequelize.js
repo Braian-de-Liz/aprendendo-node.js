@@ -13,7 +13,12 @@ const Postagem = sequelize.define('postagens', {
     }
 });
 
-Postagem.sync({ force: true });
+// Postagem.sync({ force: true });
+
+/* Postagem.create({
+    titulo : "Elias várzea",
+    conteudo : "varzeirinhoooo"
+}) */
 
 const Usuarios = sequelize.define("usuarios", {
     nome: {
@@ -30,7 +35,7 @@ const Usuarios = sequelize.define("usuarios", {
     }
 });
 
-Usuarios.sync({ force: true });
+// Usuarios.sync({ force: true });
 
 /* sequelize.authenticate().then(() => {
     console.log("Conectado");
