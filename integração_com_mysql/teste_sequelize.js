@@ -1,7 +1,10 @@
 import { Sequelize } from "sequelize";
-const sequelize = new Sequelize("teste", 'root', "Braian1107", {
-    host: "localhost",
-    dialect: 'mysql'
+import dotenv from 'dotenv';
+dotenv.config();
+
+const sequelize = new Sequelize(process.env.DB_NAME,process.env.DB_USER,process.env.DB_PASS,{
+    host: process.env.DB_HOST,
+    dialect: process.env.DB_DIALECT
 });
 
 const Postagem = sequelize.define('postagens', {
@@ -13,12 +16,12 @@ const Postagem = sequelize.define('postagens', {
     }
 });
 
-// Postagem.sync({ force: true });
+Postagem.sync({ force: true });
 
-/* Postagem.create({
+Postagem.create({
     titulo : "Elias várzea",
     conteudo : "varzeirinhoooo"
-}) */
+});
 
 const Usuarios = sequelize.define("usuarios", {
     nome: {
@@ -35,10 +38,10 @@ const Usuarios = sequelize.define("usuarios", {
     }
 });
 
-// Usuarios.sync({ force: true });
+Usuarios.sync({ force: true });
 
-/* sequelize.authenticate().then(() => {
+sequelize.authenticate().then(() => {
     console.log("Conectado");
 }).catch((erro) => {
     console.log("erro de conexão :" + erro);
-}) */
+});
